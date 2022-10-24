@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e15f06075f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-container-i">
+            <nav class="nav-bar">
+                <div class="nav-bar-i">
+                    <div class="logo">
+                        <div class="logo-i">
+                            <img src="./Screenshot 2021-08-28 at 10.51.26 AM.png" alt="">
+                        </div>
+                    </div>
+                    <div class="search-bar">
+                        <div class="search-bar-i">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="notify">
+                        <div class="notify-i">
+                            <button id="responsive-btn" onclick="showHide()"><i id="r-btn" class="fa fa-caret-square-o-down"></i></button>
+                            <i class="fa fa-bell"></i>
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-i">
+                            <div class="u-name">
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                            <div class="pro-img">
+                                <img src="./149071.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="main-container-i">
+            <div class="dashboard" id="dsbrd">
+                <div class="dashboard-i">
+                    <div class="db-1">
+                        <div class="db-1-i">
+                            <div class="db-1-head">
+                                <i class="fa fa-tachometer"></i>
+                                <p>Dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="db-hr"></div>
+                    <div class="db-2">
+                        <div class="db-2-i">
+                            <div class="db-head">
+                                <p>@</p>
+                                <p>EMAIL VERIFICATION</p>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-user"></i></p>
+                                    <p>Single email verification</p>
+                                </a>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-envelope-open"></i></p>
+                                    <p>Bulk email verification</p>
+                                </a>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-file"></i></p>
+                                    <p>Download verified result</p>
+                                </a>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-plug"></i></p>
+                                    <p>Email verification API</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="db-hr"></div>
+                    <div class="db-3">
+                        <div class="db-3-i">
+                            <div class="db-head">
+                                <p><i class="fa fa-handshake-o"></i></p>
+                                <p>INTEGRATION</p>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-list-ul"></i></p>
+                                    <p>My Apps</p>
+                                </a>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-file-text"></i></p>
+                                    <p>Email Tools</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="db-hr"></div>
+                    <div class="db-4">
+                        <div class="db-4-i">
+                            <div class="db-head">
+                                <p><i class="fa fa-file-text"></i></p>
+                                <p>BILLING</p>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-list-ul"></i></p>
+                                    <p>Manage plan</p>
+                                </a>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-file-text"></i></p>
+                                    <p>Invoices</p>
+                                </a>
+                            </div>
+                            <div class="db-sub-head">
+                                <a href="#">
+                                    <p><i class="fa fa-user"></i></p>
+                                    <p>Buy credits</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="verification-page">
+                <div class="verification-page-i">
+                    <div class="v-pg-head">
+                        <h1>
+                            Single email verification
+                        </h1>
+                    </div>
+                    <div class="v-pg-content">
+                        <p>Enter your email id below and check the results</p>
+                        <div class="check-email">
+                            <input type="text" placeholder="Enter Email.." name="search">
+                            <button type="submit">Verify</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showHide() {
+          var x = document.getElementById("dsbrd");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,342 @@
+/* BODY */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+* {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Baloo 2", cursive;
+}
+/*------------------------------------- NAVBAR -------------------------------------*/
+.nav-bar {
+  width: 100%;
+}
+.nav-bar-i {
+  width: 100%;
+  padding: 0.5%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  /* border: 2px solid green; */
+}
+.logo-i {
+  width: 100%;
+}
+.logo-i img {
+  width: 100%;
+}
+.search-bar {
+  margin: auto 4%;
+  width: 30%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+}
+.search-bar-i {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  /* align-items: center; */
+  justify-content: flex-end;
+}
+.search-bar-i input {
+  width: 100%;
+  font-size: 17px;
+  background-color: rgb(249, 248, 252);
+  padding: 3%;
+  border: rgba(249, 248, 252, 0);
+}
+.search-bar-i button {
+  width: 50px;
+  border: rgba(249, 248, 252, 0);
+  background-color: rgb(95, 73, 218);
+  /* height: 50px; */
+  color: white;
+}
+.notify {
+  width: 20%;
+  margin: auto 4%;
+}
+.notify-i {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid green; */
+}
+.notify-i i {
+  margin: auto 4%;
+  color: rgb(211, 208, 225);
+}
+.notify-i button {
+  display: none;
+  background-color: transparent;
+  border: transparent;
+  padding: 0;
+  margin: auto;
+}
+#r-btn {
+  width: 100%;
+  text-align: center;
+  color: rgb(65, 7, 191);
+  font-size: 27px;
+}
+.profile {
+  width: 20%;
+  border-left: 1px solid rgb(158, 155, 177);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-i {
+  margin: auto 10%;
+  /* border: 2px solid blue; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-name {
+  font-size: 12px;
+  margin-right: 14px;
+  color: rgb(158, 155, 177);
+}
+.pro-img {
+  width: 18%;
+}
+.pro-img img {
+  width: 100%;
+}
+/*------------------------------------- MAIN CONTAINER -------------------------------------*/
+.main-container {
+  width: 100%;
+}
+.main-container-i {
+  width: 100%;
+  display: flex;
+  height: 720px;
+}
+/*------------------------------------- DASHBOARD -------------------------------------*/
+.dashboard {
+  /* border: 2px solid red; */
+  width: 25%;
+}
+#dsbrd{
+  display: block;
+}
+.dashboard-i {
+  width: 100%;
+  background-image: linear-gradient(rgb(95, 73, 219), rgb(65, 7, 191));
+  color: white;
+  height: 100%;
+}
+.db-1,
+.db-2,
+.db-3,
+.db-4 {
+  width: 100%;
+}
+.db-1-i,
+.db-2-i,
+.db-3-i,
+.db-4-i {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.db-1-head {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.db-1-head i {
+  margin: auto 3%;
+}
+.db-head {
+  display: flex;
+  margin: 4% 4%;
+  font-weight: 700;
+  font-size: 17px;
+}
+.db-head p {
+  margin: auto 2%;
+}
+.db-sub-head {
+  display: flex;
+  margin: 4% 8%;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.616);
+}
+.db-sub-head p {
+  margin: auto 1%;
+}
+.db-sub-head a {
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.616);
+  transition: linear 0.2s;
+}
+.db-sub-head a:hover {
+  color: white;
+}
+.db-hr {
+  width: 80%;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.432);
+  margin: 5% auto;
+}
+/*------------------------------------- VERIFICATION PAGE -------------------------------------*/
+.verification-page {
+  width: 100%;
+}
+.verification-page-i {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: inset -1px 10px 5px -3px #000000;
+  box-shadow: inset -1px 10px 20px -13px #00000057;
+  background-color: rgb(249, 248, 252);
+}
+.v-pg-head {
+  margin: 1% 3%;
+  /* border: 2px solid green; */
+}
+.v-pg-head h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+.v-pg-content {
+  /* border: 2px solid red; */
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.v-pg-content p {
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.788);
+}
+.check-email {
+  display: flex;
+  /* width: 30%; */
+}
+.check-email input {
+  /* width: 100%; */
+  width: 270px;
+  font-size: 21px;
+  background-color: white;
+  padding: 3%;
+  border: 1px solid rgb(150, 148, 163);
+}
+.check-email button {
+  /* width: 50px; */
+  font-size: 21px;
+  padding: 3%;
+  border: rgba(249, 248, 252, 0);
+  background-color: rgb(95, 73, 218);
+  /* height: 50px; */
+  color: white;
+}
+/*------------------------------------- RESPONSIVE VIEW -------------------------------------*/
+@media only screen and (max-width: 720px) {
+  .dashboard {
+    width: 36%;
+  }
+  .db-head {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .db-sub-head {
+    font-weight: 300;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.616);
+  }
+  .v-pg-head h1 {
+    font-weight: 400;
+    font-size: 27px;
+  }
+  .v-pg-content p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.788);
+  }
+  .check-email input {
+    /* width: 100%; */
+    width: 200px;
+    font-size: 18px;
+    background-color: white;
+    padding: 3%;
+    border: 1px solid rgb(150, 148, 163);
+  }
+  .check-email button {
+    /* width: 50px; */
+    font-size: 18px;
+    padding: 3%;
+    border: rgba(249, 248, 252, 0);
+    background-color: rgb(95, 73, 218);
+    /* height: 50px; */
+    color: white;
+  }
+}
+/*------------------------------------- MOBILE VIEW -------------------------------------*/
+@media only screen and (max-width: 520px) {
+  .notify-i button {
+    display: block;
+  }
+  .main-container-i {
+    flex-direction: column;
+  }
+  .dashboard {
+    width: 100%;
+  }
+  .db-1-i,
+  .db-2-i,
+  .db-3-i,
+  .db-4-i {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .db-head {
+    display: flex;
+    margin: 2% 2%;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .db-head p {
+    margin: auto 2%;
+  }
+  .db-sub-head {
+    display: flex;
+    margin: 2% 2%;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 11px;
+  }
+  .db-sub-head p {
+    margin: auto 1%;
+  }
+  .db-sub-head a {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.616);
+    transition: linear 0.2s;
+  }
+  .db-sub-head a:hover {
+    color: white;
+  }
+  .db-hr {
+    width: 80%;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.432);
+    margin: 2% auto;
+  }
+}
